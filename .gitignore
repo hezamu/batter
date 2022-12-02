@@ -1,0 +1,17 @@
+.idea/
+.gradle/
+obj/
+log/
+logs/
+captures/
+*.iml
+local.properties
+*.keystore
+*.log
+*.apk
+*cruise-output*
+.DS_Store
+build/
+web/
+out/
+/kotlin-js-store/

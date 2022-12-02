@@ -28,4 +28,10 @@ kotlin {
 
 //        testImplementation(kotlin("test-js"))
     }
+
+    tasks.register<Copy>("copyOutputsToRoot") {
+        from(layout.buildDirectory.dir("distributions"))
+        include("*")
+        into(layout.projectDirectory)
+    }
 }
